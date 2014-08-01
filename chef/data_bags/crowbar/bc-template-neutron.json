@@ -13,6 +13,7 @@
       "use_virtualenv": true,
       "rabbitmq_instance": "none",
       "keystone_instance": "none",
+      "nova_instance": "none",
       "pfs_deps": [
         "libmysqlclient-dev",
         "pip://setuptools-git",
@@ -66,7 +67,7 @@
     "neutron": {
       "crowbar-revision": 0,
       "crowbar-applied": false,
-      "schema-revision": 10,
+      "schema-revision": 11,
       "element_states": {
         "neutron-server": [ "readying", "ready", "applying" ],
         "neutron-l3": [ "readying", "ready", "applying" ]

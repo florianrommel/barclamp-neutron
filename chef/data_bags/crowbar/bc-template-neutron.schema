@@ -13,6 +13,7 @@
                     "service_password": { "type": "str" },
                     "rabbitmq_instance": { "type": "str", "required": true },
                     "keystone_instance": { "type": "str", "required": true },
+                    "nova_instance": { "type": "str", "required": true },
                     "gitrepo": { "type": "str", "required": true },
                     "dhcp_domain": { "type": "str", "required": true },
                     "use_ml2": { "type": "bool", "required": true },
